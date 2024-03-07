@@ -24,9 +24,12 @@
     align-items: center;  */
 }
 #divinfo{
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap; 
     align-self: center;
+    justify-content: center; 
+    width: 100%;
 }
 .pinfo{
     color:ghostwhite;

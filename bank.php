@@ -1,7 +1,7 @@
 <?php 
 $host = "localhost";
-$usuario = "root";
-$senha = "";
+$usuario = "ADMIN";
+$senha = "admin";
 $banco = "HeatWiki";
 $bank = new mysqli($host, $usuario, $senha, $banco);
 if($bank->connect_errno){

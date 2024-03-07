@@ -34,9 +34,12 @@
     include ('header.php');
     include ('bank.php');
     ?>
-    <form class="centro" name="form" action="process.php" method="GET">
+    
+    <form class="centro form-control-lg" name="form" action="process.php" method="GET">
+    <div style="display:flex; flex-direction:column; align-self:center;">
         <input type="text" name="nome" placeholder="Playername">
         <input type="submit" name="enviar" value="Busca">
+    </div>
     </form>
     <div class="row row-cols-3">
     <?php
@@ -46,7 +49,7 @@
     ?>
 
         <div class="shadow-lg rounded-4 bank">
-            <img src="<?php echo $player['pic'];?>">
+            <img src="<?php echo $player['pic'];?>" width="540" height="360">
             <h1 class="pinfo"><?php echo $player['nome']?></h1>
             <h3 class="pinfo"><?php echo date("d/m/Y", strtotime($jog['date']));?></h3>
             <h3 class="pinfo">#<?php echo $player['id'];?></h3>

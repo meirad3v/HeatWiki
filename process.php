@@ -76,5 +76,4 @@ if(isset($_GET['nome'])){
     </script>
 </body>
 </body>
-
 </html>
