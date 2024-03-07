@@ -1,6 +1,6 @@
 <h1>HeatWiki SQL</h1>
 <p align="left">
-<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=ONGOING&color=blue&style=for-the-badge"/>
+<img loading="lazy" src="http://img.shields.io/static/v1?label=STATUS&message=finalizado&color=green&style=for-the-badge"/>
 </p>
 <h2> Resumo do Projeto</h2>
 <p>
